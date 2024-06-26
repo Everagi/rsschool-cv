@@ -4,14 +4,13 @@
 
 ## Contacts
 
-<image src="logo/telegram_16.png">&ensp;  [Написать в Telegram @Cozar(Oleg)](https://t.me/@Cozar(Oleg))
+![Telegram](logo/telegram_16.png)&ensp;[Написать в Telegram @Cozar(Oleg)](https://t.me/@Cozar(Oleg))
 
+![Telegram](logo/gmail_16.png)&ensp;[Отправить письмо на Gmail belorusskiychuvak@gmail.com](mailto:example@gmail.com)
 
-<image src="logo/gmail_16.png">&ensp;[Отправить письмо на Gmail belorusskiychuvak@gmail.com](mailto:example@gmail.com)
+![Telegram](logo/discord_16.png)&ensp;[Discord](https://discord.gg/invitecode)
 
-<image src="logo/discord_16.png">&ensp;[Discord](https://discord.gg/invitecode)
-
-<image src="logo/github_16.png">&ensp;[Профиль на GitHub](https://github.com/username)
+![Telegram](logo/github_16.png)&ensp;[Профиль на GitHub](https://github.com/Everagi)
 
  ---
 
@@ -35,6 +34,7 @@ I'm a communicative and determined developer with some experience in web develop
 ---
 
 ## Code example *Python*
+
  ```python
 app = Flask(__name__)
 app.secret_key = 'my-super-secret-phrase-I-dont-tell-this-to-nobody'
@@ -57,17 +57,20 @@ def myform():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
 ```
 
  ---
 
  ## Education 
+
 - Мechanical engineer **_BelGUT_**
 - HTML and CSS **_Netology_**
 - Python, JavaScript, C **_Stepik_**
 
  ---
- 
+
 ## Languages
+
 - English - *Intermediate*
 - Russian - *Native*
