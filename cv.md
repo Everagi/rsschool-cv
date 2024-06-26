@@ -1,5 +1,7 @@
 # Oleg Ivanov
+
 ---
+
 ## Contacts
 
 <image src="logo/telegram_16.png">&ensp;  [Написать в Telegram @Cozar(Oleg)](https://t.me/@Cozar(Oleg))
@@ -18,6 +20,7 @@
 I'm a communicative and determined developer with some experience in web development (freelance). My strengths include teamwork, quick learning, perseverance, and a drive for self-improvement. I have experience with programming languages such as JavaScript, C, Python.
 
 ---
+
 ## Skills
 
 - Programming languages: 
@@ -28,7 +31,9 @@ I'm a communicative and determined developer with some experience in web develop
 - Platforms: *Node.js, Flask*
 - Version control systems: *Git*
 - Development tools: *Visual Studio Code, Sublime Text, GitHub, WebStorm, PyCharm*
+
 ---
+
 ## Code example *Python*
  ```python
 app = Flask(__name__)
@@ -53,12 +58,16 @@ def myform():
 if __name__ == '__main__':
     app.run(debug=True)
 ```
+
  ---
+
  ## Education 
 - Мechanical engineer **_BelGUT_**
 - HTML and CSS **_Netology_**
 - Python, JavaScript, C **_Stepik_**
+
  ---
+ 
 ## Languages
 - English - *Intermediate*
 - Russian - *Native*
