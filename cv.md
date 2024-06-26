@@ -54,3 +54,11 @@ if __name__ == '__main__':
     app.run(debug=True)
 ```
  ---
+ ## Education 
+- Мechanical engineer **_BelGUT_**
+- HTML and CSS **_Netology_**
+- Python, JavaScript, C **_Stepik_**
+ ---
+## Languages
+- English - *Intermediate*
+- Russian - *Native*
