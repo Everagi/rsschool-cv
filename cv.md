@@ -12,3 +12,7 @@
 <image src="logo/github_16.png">&ensp;[Профиль на GitHub](https://github.com/username)
 
  ---
+ 
+## About Me
+
+I'm a communicative and determined developer with some experience in web development (freelance). My strengths include teamwork, quick learning, perseverance, and a drive for self-improvement. I have experience with programming languages such as JavaScript, C, Python.
