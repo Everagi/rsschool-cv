@@ -28,3 +28,39 @@
 
 }
 /*header finish*/
+
+
+/*footer start*/
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 1.1em;
+    color: #ffffff;
+    background-color: #27374D;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer .github-icon {
+    margin-right: 10px;
+}
+
+.my-github {
+    display: flex;
+    align-items: center;
+}
+
+.github-icon { 
+    width: 26px;
+}
+
+.rsschool-icon {
+    width: 73px;
+    height: 26px;
+}
+/*footer finish*/
