@@ -147,6 +147,37 @@
 }
 /*finish skills*/
 
+/*start lang*/
+.name {
+    padding: 0 20px;
+}
+
+.lang_title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.lang {
+    max-width: 100%;
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+.language-name {
+    text-transform: uppercase;
+}
+
+.h2 {
+    text-transform: uppercase;
+}
+
+.name_item {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+/*finish lang*/
+
 /*footer start*/
 footer {
     display: flex;
