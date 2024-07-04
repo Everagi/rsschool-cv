@@ -29,6 +29,40 @@
 }
 /*header finish*/
 
+/*main start*/
+.main {
+    display: flex;
+}
+
+.resume_right {
+    width: 70%;
+}
+/*left start*/
+.resume_left {
+    width: 30%;
+    background-color: #526D82;
+    color: white;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+/*start profile*/
+.resume_profile {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    margin-bottom: 50px;
+}
+.profile-img {
+    width: 250px;
+    border-radius: 50%;
+}
+
+.resume_profile .h1 {
+    margin-bottom: 20px;
+}
+/*finish profile*/
 
 /*footer start*/
 footer {
