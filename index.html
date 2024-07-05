@@ -114,6 +114,12 @@
                         </li>
                     </ul>
                 </div>
+                <div class="project">
+                    <h2 class="project_title">Project</h2>
+                        <ol>
+                            <li><a class="a" href="https://everagi.github.io/rsschool-cv/cv">CV</a></li>
+                        </ol>
+                </div>
             </div>
             <div class="resume_right">
                 <div class="main-content">
@@ -124,10 +130,10 @@
                     <section class="code">
                         <h2>Code example</h2>
                         <pre>
-          <code>
+        <code>
         app = Flask(__name__)
         app.secret_key = 'my-secret'
-      
+    
         class my_Form(FlaskForm):
             name = StringField('Username')
             phone = StringField('User phone')
@@ -135,14 +141,14 @@
             bio = TextAreaField('About me')
             password = PasswordField('Your password')
             submit = SubmitField('GO!')
-      
+    
         @app.route('/myform', methods=['GET', 'POST'])
         def myform():
             form = my_Form()
             if request.method == 'GET':
                 return render_template('myform.html', form=form)
             return form.name.data
-      
+    
         if __name__ == '__main__':
             app.run(debug=True)
         </code>

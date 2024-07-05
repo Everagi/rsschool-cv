@@ -161,6 +161,7 @@
     max-width: 100%;
     color: #fff;
     padding-bottom: 10px;
+    margin: 20px;
 }
 
 .language-name {
@@ -177,6 +178,22 @@
     margin-bottom: 15px;
 }
 /*finish lang*/
+/*start project*/
+.project {
+    text-align: center;
+}
+
+.project_title {
+    margin: 10px;
+}
+
+.project .a {
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+}
+
+/*finish project*/
 /*finish left*/
 
 /*right start*/
