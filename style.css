@@ -43,7 +43,7 @@
     background-color: #526D82;
     color: white;
     padding: 20px;
-    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+    box-shadow: 5px 0 5px rgba(0,0,0,0.1);
 }
 
 /*start profile*/
@@ -177,7 +177,49 @@
     margin-bottom: 15px;
 }
 /*finish lang*/
+/*finish left*/
 
+/*right start*/
+.resume_right {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: #dde6ed;
+}
+
+.main-content {
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.main-content h2 {
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+}
+
+.about,
+.code,
+.education {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+pre {
+    display: block;
+    background-color: #f7fbfc;
+    border-radius: 3px;
+    overflow: auto;
+    word-wrap: normal;
+    white-space: pre;
+    font-family: monospace, monospace;
+    font-size: 1em;
+}
+
+/*right finish*/
 /*footer start*/
 footer {
     display: flex;

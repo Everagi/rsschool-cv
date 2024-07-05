@@ -116,7 +116,48 @@
                 </div>
             </div>
             <div class="resume_right">
-
+                <div class="main-content">
+                    <section class="about">
+                        <h2>About Me</h2>
+                        <p>I'm a communicative and determined developer with some experience in web development (freelance). My strengths include teamwork, quick learning, perseverance, and a drive for self-improvement. I have experience with programming languages such as JavaScript, C, Python.</p>
+                    </section>
+                    <section class="code">
+                        <h2>Code example</h2>
+                        <pre>
+          <code>
+        app = Flask(__name__)
+        app.secret_key = 'my-secret'
+      
+        class my_Form(FlaskForm):
+            name = StringField('Username')
+            phone = StringField('User phone')
+            age = IntegerField('Age')
+            bio = TextAreaField('About me')
+            password = PasswordField('Your password')
+            submit = SubmitField('GO!')
+      
+        @app.route('/myform', methods=['GET', 'POST'])
+        def myform():
+            form = my_Form()
+            if request.method == 'GET':
+                return render_template('myform.html', form=form)
+            return form.name.data
+      
+        if __name__ == '__main__':
+            app.run(debug=True)
+        </code>
+                        </pre>
+                    </section>
+                    <section class="education">
+                        <h2>Education</h2>
+                        <div>
+                            <h3>2010 - 2015</h3>
+                            <p>Мechanical engineer <span>BelGUT</span></p>
+                            <p>HTML and CSS <span>Netology</span></p>
+                            <p>Python, JavaScript, C <span>Stepik</span></p>
+                        </div>
+                    </section>
+                </div>
             </div>
         </main>
     </div>
