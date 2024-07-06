@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Oleg Ivanov Resume</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <nav>
+                <ul class="header__nav">
+                    <li><a href="#">About me</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Education</a></li>
+                    <li><a href="#">Languages</a></li>
+                    <li><a href="#">Code</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div class="wrapper">
+        <main class="main">
+            <div class="resume_left">
+                <div class="resume_profile">
+                    <img src="img/developer.jpg" alt="profile_pic" class="profile-img">
+                    <h1 class="h1">Ivanov Oleg</h1>
+                    <h3 class="h3">Junior Front-end Developer</h3>
+                </div>
+                <div class="contacts">
+                    <div class="title">
+                        <h2 class="h2">Contacts</h2>
+                    </div>
+                    <ul class="contacts_info">
+                        <li class="contacts_item1 info_item">
+                            <img class="icon" src="https://img.icons8.com/?size=100&id=ufkkYBXJSuPy&format=png&color=000000" alt="phone number">
+                            <div class="data">+375 44 785 85 85</div>
+                        </li>
+                        <li class="contacts_item2 info_item">
+                            <img class="icon" src="https://img.icons8.com/?size=100&id=63306&format=png&color=000000" alt="telegram">
+                            <div class="data">@Cozar(Oleg)</div>
+                        </li>
+                        <li class="contacts_item3 info_item">
+                            <img class="icon" src="https://img.icons8.com/?size=100&id=37246&format=png&color=000000" alt="email">
+                            <div class="data">belorusskiychuvak@gmail.com</div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="resume_item">
+                    <div class="title">
+                        <h2 class="h2">Skills</h2>
+                    </div>
+                    <ul>
+                        <li>
+                            <div class="skill_name">
+                                HTML
+                            </div>
+                            <div class="skill_progress">
+                                <span style="width: 60%;"></span>
+                            </div>
+                            <div class="skill_per">60%</div>
+                        </li>
+                        <li>
+                            <div class="skill_name">
+                                CSS
+                            </div>
+                            <div class="skill_progress">
+                                <span style="width: 50%;"></span>
+                            </div>
+                            <div class="skill_per">50%</div>
+                        </li>
+                        <li>
+                            <div class="skill_name">
+                                PYTHON
+                            </div>
+                            <div class="skill_progress">
+                                <span style="width: 70%;"></span>
+                            </div>
+                            <div class="skill_per">70%</div>
+                        </li>
+                        <li>
+                            <div class="skill_name">
+                                JS
+                            </div>
+                            <div class="skill_progress">
+                                <span style="width: 40%;"></span>
+                            </div>
+                            <div class="skill_per">40%</div>
+                        </li>
+                        <li>
+                            <div class="skill_name">
+                                GIT
+                            </div>
+                            <div class="skill_progress">
+                                <span style="width: 50%;"></span>
+                            </div>
+                            <div class="skill_per">50%</div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="lang">
+                    <div class="lang_title">
+                        <h2 class="h2">Languages</h2>
+                    </div>
+                    <ul class="name">
+                        <li class="name_item">
+                            <h3 class="language-name">English</h3>
+                            <p class="level">Intermediate</p>
+                        </li>
+                        <li class="name_item">
+                            <h3 class="language-name">Russian</h3>
+                            <p class="level">Native</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="project">
+                    <h2 class="project_title">Project</h2>
+                        <ol>
+                            <li><a class="a" href="https://everagi.github.io/rsschool-cv/cv">CV</a></li>
+                        </ol>
+                </div>
+            </div>
+            <div class="resume_right">
+                <div class="main-content">
+                    <section class="about">
+                        <h2>About Me</h2>
+                        <p>I'm a communicative and determined developer with some experience in web development (freelance). My strengths include teamwork, quick learning, perseverance, and a drive for self-improvement. I have experience with programming languages such as JavaScript, C, Python.</p>
+                    </section>
+                    <section class="code">
+                        <h2>Code example</h2>
+                        <pre>
+        <code>
+        app = Flask(__name__)
+        app.secret_key = 'my-secret'
+    
+        class my_Form(FlaskForm):
+            name = StringField('Username')
+            phone = StringField('User phone')
+            age = IntegerField('Age')
+            bio = TextAreaField('About me')
+            password = PasswordField('Your password')
+            submit = SubmitField('GO!')
+    
+        @app.route('/myform', methods=['GET', 'POST'])
+        def myform():
+            form = my_Form()
+            if request.method == 'GET':
+                return render_template('myform.html', form=form)
+            return form.name.data
+    
+        if __name__ == '__main__':
+            app.run(debug=True)
+        </code>
+                        </pre>
+                    </section>
+                    <section class="education">
+                        <h2>Education</h2>
+                        <div>
+                            <h3>2010 - 2015</h3>
+                            <p>Мechanical engineer <span>BelGUT</span></p>
+                            <p>HTML and CSS <span>Netology</span></p>
+                            <p>Python, JavaScript, C <span>Stepik</span></p>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </main>
+    </div>
+    <div class="wrapper">
+        <footer class="footer">
+                <a class="my-github" href="https://github.com/Everagi">
+                    <img class="github-icon" src="img/github.svg" alt="Github Icon">
+                    <p>Visit my GitHub</p>
+                </a>
+                <p>© 2024</p>
+                <a href="https://wearecommunity.io/events/js-stage0-rs-2024q2">
+                    <img class="rsschool-icon" src="img/rsschool.svg" alt="Rsschool Icon">
+                </a>
+        </footer>
+    </div>
+</body>
+</html>
