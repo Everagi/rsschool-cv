@@ -32,3 +32,32 @@ I'm a communicative and determined developer with some experience in web develop
 - Development tools: *Visual Studio Code, Sublime Text, GitHub, WebStorm, PyCharm*
 
 ---
+
+## Code example *Python*
+
+ ```python
+app = Flask(__name__)
+app.secret_key = 'my-super-secret-phrase-I-dont-tell-this-to-nobody'
+
+class my_Form(FlaskForm):
+    name = StringField('Username')
+    phone = StringField('User phone')
+    age = IntegerField('Age')
+    bio = TextAreaField('About me')
+    password = PasswordField('Your password')
+    submit = SubmitField('GO!')
+
+@app.route('/myform', methods=['GET', 'POST'])
+def myform():
+    form = my_Form()
+    if request.method == 'GET':
+        return render_template('myform.html', form=form)
+    return form.name.data
+
+
+if __name__ == '__main__':
+    app.run(debug=True)
+
+```
+
+ ---
