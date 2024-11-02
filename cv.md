@@ -23,9 +23,9 @@ I'm a communicative and determined developer with some experience in web develop
 ## Skills
 
 - Programming languages: 
-  1. *JavaScript*
-  2. *Python*
-  3.  *C*
+1. *JavaScript*
+2. *Python*
+3.  *C*
 - Jinja template
 - Platforms: *Node.js, Flask*
 - Version control systems: *Git*
@@ -62,7 +62,7 @@ if __name__ == '__main__':
 
  ---
  
- ## Education 
+## Education 
 
 - Мechanical engineer **_BelGUT_**
 - HTML and CSS **_Netology_**
